@@ -13,7 +13,7 @@ Package.onUse(function (api) {
   var path = Npm.require('path');
   var asset_path = path.join('ratchet-2.0.2');
   api.addFiles(path.join(asset_path, 'css', 'ratchet.css'), 'client');
-  api.addFiles(path.join(asset_path, 'css', 'ratchet-theme-ios.css'), 'client');
+  api.addFiles(path.join(asset_path, 'css', 'ratchet-theme-android.css'), 'client');
   api.addFiles(path.join(asset_path, 'js', 'ratchet.js'), 'client');
 
   // fonts
